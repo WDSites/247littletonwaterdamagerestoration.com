@@ -173,6 +173,14 @@ article ol.numlist li{padding:4px 0}
 .mapsec p{color:var(--muted);margin-bottom:18px}
 .mapframe{width:100%;height:380px;border:0;border-radius:var(--r);display:block;background:var(--tint)}
 .mapframe.small{height:320px}
+.sec.alt{background:var(--tint)}
+.findgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:8px}
+.findcol{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.findcol h3{font-size:18px;margin:0 0 10px}
+.findcol ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.findcol a{font-weight:600;text-decoration:none}
+.findcol a:hover{text-decoration:underline}
+.findnote{margin:16px 0 0}
 .bloglist{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .postcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px}
 .postcard .thumb,.card .thumb{display:block;margin:-24px -24px 16px;overflow:hidden;border-radius:var(--r) var(--r) 0 0}
@@ -225,7 +233,7 @@ body{padding-bottom:64px}
 .floatcall{display:none}
 }
 @media(max-width:600px){
-.cards,.cards.two,.why,.steps,.areacards,.prep,.bloglist,.areas{grid-template-columns:1fr}
+.cards,.cards.two,.why,.steps,.areacards,.prep,.bloglist,.areas,.findgrid{grid-template-columns:1fr}
 .site-footer .wrap{grid-template-columns:1fr}
 .wrap{padding:0 18px}
 .hero{padding:44px 0 40px}
